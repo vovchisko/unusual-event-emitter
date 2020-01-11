@@ -1,6 +1,6 @@
 # Unusual Event-Emitter
 
-Because I can. Because I like to use arrow functions in my event listeners. And don't want to save each sh**ty function as a variable just to be able to remove the listener later. So I save it's ID instead!
+Because I can. Because I like to use arrow functions in my event listeners. And I don't want to save each sh**ty function as a variable just to be able to remove the listener later. So I save it's ID instead!
 
 ### Nothing but ES6 Class. Feel free to `extend` from it.
 Except for one little detail: The main feature is `event-id` for each event.

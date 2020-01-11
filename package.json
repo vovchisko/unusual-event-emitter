@@ -12,7 +12,10 @@
   },
   "keywords": [
     "events",
-    "eventemitter"
+    "eventemitter",
+    "event-emitter",
+    "es6",
+    "tiny"
   ],
   "author": "Volodymyr Ishchenko",
   "license": "ISC",
