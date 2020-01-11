@@ -57,9 +57,10 @@ class EE {
 
     for (let i in events) {
       calls++
-      events[i].fn(...args)
-      if (events[i].once) {
-        this.off(events[i].id)
+      const e = events[i]
+      e.fn(...args)
+      if (e.once) {
+        this.off(e.id)
       }
     }
 
