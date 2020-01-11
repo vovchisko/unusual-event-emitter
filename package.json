@@ -1,0 +1,23 @@
+{
+  "name": "unusual-event-emitter",
+  "version": "1.0.0",
+  "description": "Unusual event emitter because I want to have an ID for every listener.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vovchisko/unusual-event-emitter.git"
+  },
+  "keywords": [
+    "events",
+    "eventemitter"
+  ],
+  "author": "Volodymyr Ishchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vovchisko/unusual-event-emitter/issues"
+  },
+  "homepage": "https://github.com/vovchisko/unusual-event-emitter#readme"
+}
