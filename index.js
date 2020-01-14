@@ -43,7 +43,7 @@ class EE {
    * @param ev
    * @return {number}
    */
-  emit (ev) {
+  emit (ev, a,b,c) {
     if (!this._events[ev]) return 0
 
     const events = this._events[ev]
@@ -58,7 +58,7 @@ class EE {
     for (let i in events) {
       calls++
       const e = events[i]
-      e.fn(...args)
+      e.fn(a,b,c)
       if (e.once) {
         this.off(e.id)
       }
