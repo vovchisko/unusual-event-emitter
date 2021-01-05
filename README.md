@@ -1,6 +1,6 @@
 # Unusual Event-Emitter
 
-Because I can. Because I like to use arrow functions in my event listeners. And I don't want to save each sh**ty function as a variable just to be able to remove the listener later. So I save it's ID instead!
+This emitter has been written for a single specific purpose. And I don't want to save each callback function as a variable just to be able to remove the listener later. So I can save it's ID instead! Also its not bother about the context. Use arrow functiuon when it needed.
 
 ### Why?
 For specific cases when your event name might looks like "call-me:986111". And somwere else in the universe websoket client can fire specific event for specific message.
