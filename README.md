@@ -1,9 +1,10 @@
 # Unusual Event-Emitter
 
-This emitter has been written for a single specific purpose. And I don't want to save each callback function as a variable just to be able to remove the listener later. So I can save it's ID instead! Also its not bother about the context. Use arrow functiuon when it needed.
+This emitter has been written for a single specific purpose - make it easy to unsibscribe at any given moment in any place of your code.
+Each subscribtion returns string subscribtion identifier. No need to save each callback function as a variable just to be able to remove one exact listener later.
 
 ### Why?
-For specific cases when your event name might looks like "call-me:986111". And somwere else in the universe websoket client can fire specific event for specific message.
+For simplicity.
 
 ### Nothing but ES6 Class. Feel free to `extend` from it.
 Except for one little detail: The main feature is `event-id` for each event.
